@@ -42,11 +42,13 @@ The command `print-hash <filename>` displays the hash of the file `<filename>`.
 The command `query <filename>` displays whether the executable `<filename>` would be allowed.
 
 
+
 A program will be allowed if:
 * The program is in the Windows catalog.
 * The program is signed and either the option `all-signers` has been specified or the signer has been added to the file of signers (option `--signers <filename>`).
 * The program's hash has been added to the file of hashes (option `--hashes <filename>`).
 * The program has been added to the file of paths, or one of its parent directories (option `--paths <filename>`).
+
 
 
 Options:
